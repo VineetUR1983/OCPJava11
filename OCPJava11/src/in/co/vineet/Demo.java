@@ -8,6 +8,13 @@ public class Demo {
 		Demo d = new Demo();
 		d.printName("Vineet");
 		
+		// int[] numbers = new int[] {101, 2, 5, 78};
+		int  numbers [    	] = {101, 2, 5, 78};
+		for(int i = 0; i < numbers.length; i++) {
+			System.out.println(numbers[i]);
+		}
+		
+		
 	}
 	
 	public void printName(String name) {
